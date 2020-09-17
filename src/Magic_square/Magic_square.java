@@ -14,7 +14,6 @@ public class Magic_square {
         int sumLine = 0;
         int s = 0;
 
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Entere a height");
         int size = scanner.nextInt();
