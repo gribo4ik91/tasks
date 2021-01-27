@@ -13,7 +13,7 @@ public class Coins {
 		System.out.println("Entere a number");
 		int number = scanner.nextInt();
 		int r = 0;
-			if (number < 43){
+			if (number < 44){
 				int t = number % 10;
 				r = number / 10;
 					if (t > 0){
@@ -29,7 +29,7 @@ public class Coins {
 					}
 			}
 			else {
-					if (number > 43){
+
 					int p = number % 50;
 					r = number / 50;
 						if (p > 0 ) {
@@ -52,7 +52,7 @@ public class Coins {
 									}
 							}
 						}
-					}
+
 			}
 		System.out.println(r);
 	}
