@@ -16,8 +16,8 @@ public class Coins {
 			if (number < 43){
 				int t = number % 10;
 				r = number / 10;
-					if (t>0){
-						int aa=t%3;
+					if (t > 0){
+						int aa = t % 3;
 						int q = t / 3;
 						r+=q;
 							if (aa>0){
@@ -44,7 +44,7 @@ public class Coins {
 										int v = y % 3;
 										int g = y / 3;
 										r+=g;
-											if (v>0){
+											if (v > 0){
 												int c = v % 1;
 												int j = v / 1;
 												r+=j;
