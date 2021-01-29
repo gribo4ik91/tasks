@@ -10,7 +10,7 @@ public class Coins {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Entere a number");
+		System.out.println("Entere a number of coins");
 		int number = scanner.nextInt();
 		int r = 0;
 			if (number < 44){
@@ -54,6 +54,6 @@ public class Coins {
 						}
 
 			}
-		System.out.println(r);
+		System.out.println("Minimum amount of coins needed: " +r);
 	}
 }
